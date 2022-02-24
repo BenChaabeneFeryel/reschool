@@ -1,5 +1,4 @@
 import React from 'react';
-import Dashboard from '../../components/admin/Dashboard.js';
 import NavBar from './NavBar.js';
 import Sidebar from './SideBar.js';
 import Footer from './Footer.js';

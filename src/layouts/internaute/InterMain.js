@@ -11,6 +11,10 @@ export default class InterMain extends Component {
                 <Segment style={{ padding: '8em 0em' }} vertical>
                     <Grid container stackable verticalAlign='middle'>
                         <Grid.Row>
+                            <Header as='h1' style={{ fontSize: '3em' }} textAlign='center'>
+                                Titre 1
+                            </Header>
+                            <br/>
                             <p style={{ fontSize: '1.33em' }}> 
                                 Un texte est une série orale ou écrite de mots perçus comme constituant un
                                 ensemble cohérent, porteur de sens et utilisant les structures propres à 
@@ -30,6 +34,9 @@ export default class InterMain extends Component {
             <Segment style={{ padding: '8em 0em' }} vertical>
                 <Grid container stackable verticalAlign='middle'>
                     <Grid.Row>
+                        <Header as='h1' style={{ fontSize: '3em' }} textAlign='center'>
+                            Titre 2
+                        </Header>
                         <Grid.Column floated='left' width={3}><Image src={images} size='large' circular /></Grid.Column>
                         <Grid.Column floated='center' width={3}><Image src={images} size='large' circular /></Grid.Column>
                         <Grid.Column floated='right' width={3}><Image src={images} size='large' circular /></Grid.Column>
@@ -42,14 +49,14 @@ export default class InterMain extends Component {
                         <Grid.Row>
                             <Grid.Column width={7} textAlign='center' >
                                 <Header as='h3' style={{ fontSize: '2em' }} textAlign='left'>
-                                    Titre 1
+                                    Titre 3
                                 </Header>
                                 <p style={{ fontSize: '1.33em' , textAlign:'left' }}>
                                 We can give your company superpowers to do things that they never thought possible.
                                 Let us delight your customers and empower your needs... through pure data analytics.
                                 </p>
                                 <Header as='h3' style={{ fontSize: '2em' }} textAlign='left'>
-                                    Titre 2
+                                    Titre 4
                                 </Header>
                                 <p style={{ fontSize: '1.33em', textAlign:'left' }}>
                                 Yes that's right, you thought it was the stuff of dreams, but even bananas can be

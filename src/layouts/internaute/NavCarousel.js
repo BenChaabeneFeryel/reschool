@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 import grey from '../../assets/frontend/img/grey.png';
+import '../../assets/frontend/carousel.css';
 
 export default function NavCarousel() {
     return (
