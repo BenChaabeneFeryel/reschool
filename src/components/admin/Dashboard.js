@@ -2,6 +2,7 @@ import React from 'react';
 import DoughnutChart  from './DoughnutChart.js';
 import Barchart from './Barchart.js';
 import PieChart from './PieChart.js';
+import LineChart from './LineChart.js';
 
 const Dashboard = () => {
     return (
@@ -49,10 +50,10 @@ const Dashboard = () => {
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-chart-bar me-1"></i>
-                        Chart Example
+                        Line Chart Example
                     </div>
                     <div class="card-body">
-                        <canvas id="myChart" width="400" height="400"></canvas>
+                        <LineChart/>
                     </div>
                     <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
                 </div>              

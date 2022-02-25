@@ -27,6 +27,20 @@ export const data = {
   ],
 };
 
+export const optionsd = {
+  responsive: true,
+  maintainAspectRatio: true,
+  plugins: {
+    legend: {
+      display: true,
+      position : 'right'
+    },
+    title: {
+      display: false
+    },
+  },
+};
+
 export default function PieChart() {
-  return <Pie data={data} options={{responsive: true,maintainAspectRatio: true,}} />;
+  return <Pie data={data} options={optionsd} />;
 }

@@ -23,10 +23,24 @@ export const data = {
         '#08A66C',
       ],
       borderWidth: 1,
-    },
+      
+    },  
   ],
+};
+export const optionsd = {
+  responsive: true,
+  maintainAspectRatio: true,
+  plugins: {
+    legend: {
+      display: true,
+      position : 'right'
+    },
+    title: {
+      display: false
+    },
+  },
 };
 
 export default function DoughnutChart() {
-  return <Doughnut data={data} options={{responsive: true,maintainAspectRatio: true,}} />;
+  return <Doughnut data={data} options={optionsd} />;
 }
